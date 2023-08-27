@@ -5,6 +5,7 @@ import { Button } from "@mui/material";
 import { useTheme } from '@mui/material/styles';
 import GreeNetImage from '../assets/GreeNet.png';
 import CarbonDataImage from '../assets/CarbonData.png';
+import ECOdeImage from '../assets/ECOde.png';
 
 const LandingPageCard = ({ imageSrc, altText, heading, description, path }) => {
   return (
@@ -29,25 +30,23 @@ const LandingPageCard = ({ imageSrc, altText, heading, description, path }) => {
 };
 
 export default function LandingPage() {
-  const theme = useTheme();
   return (
     <div className="LandingPage-row">
-      <div>
-        <LandingPageCard
-          imageSrc={GreeNetImage}
-          heading="GreeNet"
-          description="Chat with GreeNet to learn about going green."
-          path="/chatbot"
-        />
-      </div>
-      <div>
-        <LandingPageCard
-          imageSrc={CarbonDataImage}
-          heading="CarbonData"
-          description="Check your website's carbon footprint."
-          path="/search"
-        />
-      </div>
+      <img src={ECOdeImage} alt="ECOde Logo" className="ecode-logo"/>
+      <LandingPageCard
+        imageSrc={GreeNetImage}
+        heading="GreeNet"
+        description="Chat with GreeNet to learn about going green."
+        path="/chatbot"
+      />
+      <LandingPageCard
+        imageSrc={CarbonDataImage}
+        heading="CarbonData"
+        description="Check your website's carbon footprint."
+        path="/search"
+      />
     </div>
   );
 }
+
+

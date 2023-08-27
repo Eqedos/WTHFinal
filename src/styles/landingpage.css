@@ -65,3 +65,31 @@
     font-size: 16px;
     margin-top: 10px;  
 }
+
+
+.LandingPage-row {
+    position: relative; /* Set the parent container to relative */
+    display: flex;
+    flex-direction: row; /* Change to row to make the children side by side */
+    justify-content: center; /* Center the children horizontally */
+    padding-top: 150px; /* This gives space at the top for the logo. Adjust as needed */
+  }
+  
+.ecode-logo {
+    position: absolute; /* Position the logo absolutely */
+    top: 20px;          /* Set a small gap from the top */
+    left: 50%;          /* Center it horizontally */
+    transform: translateX(-50%); /* Adjust for the logo's width */
+    z-index: 1;         /* Make sure it's above other content */
+    width: 100px;       /* Set logo width. Adjust as needed */
+    height: auto;       /* Maintain aspect ratio */
+}
+  
+.page-card {
+    margin: 0 20px;     /* Give some horizontal space between cards */
+    /* Add other styles you had previously here */
+}
+  
+  
+
+  
