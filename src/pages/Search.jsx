@@ -1,9 +1,8 @@
-// Search.js
 import React, { useState } from 'react';
 import SearchBar from '../components/SearchBar';
 import Card from '../components/Card';
 
-function Search() {
+function Search({ onUpdateCarbonData }) {
   const [searchEndpoint, setSearchEndpoint] = useState('');
 
   const handleSearch = (endpoint) => {
@@ -13,7 +12,7 @@ function Search() {
   return (
     <div>
       <SearchBar onSearch={handleSearch} />
-      {searchEndpoint && <Card siteEndpoint={searchEndpoint} />}
+      {searchEndpoint && <Card siteEndpoint={searchEndpoint} onUpdateCarbonData={onUpdateCarbonData}/>}
     </div>
   );
 }
