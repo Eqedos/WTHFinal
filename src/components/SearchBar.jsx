@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/SearchBar.css';
 
 function SearchBar({ onSearch }) {
   const [siteEndpoint, setSiteEndpoint] = useState('');
@@ -11,11 +12,11 @@ function SearchBar({ onSearch }) {
     <div className="input-container">
       <input
         type="text"
-        placeholder="Enter site endpoint"
+        placeholder="Enter Website URL"
         value={siteEndpoint}
         onChange={(e) => setSiteEndpoint(e.target.value)}
       />
-      <button onClick={handleSearch}>Search</button>
+      <button onClick={handleSearch} style={{ backgroundColor: '#191414', color: 'white' }} >Search</button>
     </div>
   );
 }

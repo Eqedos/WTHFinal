@@ -40,3 +40,20 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  background-color: black;
+  color: #1db954;  
+}
+
+.chatbot-bg {
+  background-color: black;  
+}
+
+.data-card h3 {
+  color: #1db954;  
+}
+
+.data-card p {
+  color: white;  
+}

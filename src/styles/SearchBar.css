@@ -1,0 +1,21 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* To center-align the input and button horizontally */
+  }
+
+.input-container button {
+  margin-top: 10px;
+  padding: 10px 15px;
+}
+.input-container input {
+    font-size: 1.5em;
+    height: 40px;
+    width: 300px;
+    background-color: black;
+    color: #1db954;
+    border: 2px solid white;        
+    border-radius: 10px;  
+}        
+  
+  

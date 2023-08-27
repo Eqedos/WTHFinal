@@ -15,8 +15,9 @@ const LandingPageCard = ({ imageSrc, altText, heading, path }) => {
             id={altText}
             className="login-button"
             variant="contained"
+            style={{ backgroundColor: '#191414' }}
           >
-            Login
+            Start
           </Button>
         </Link>
       </div>
@@ -28,7 +29,7 @@ export default function LandingPage() {
   const theme = useTheme();
   return (
     <div className="LandingPage-row">
-      <div className="tenant-card">
+      <div>
         <LandingPageCard
           imageSrc="tenantlogin.png"
           altText="Tenant"
@@ -36,20 +37,12 @@ export default function LandingPage() {
           path="/chatbot"
         />
       </div>
-      <div className="landlord-card">
+      <div>
         <LandingPageCard
           imageSrc="landlordlogin.png"
           altText="Landlord"
           heading="check your web carbon footprint"
           path="/search"
-        />
-      </div>
-      <div className="admin-card">
-        <LandingPageCard
-          imageSrc="adminlogin.png"
-          altText="Admin"
-          heading="Admin Account"
-          path="/adminlogin"
         />
       </div>
     </div>

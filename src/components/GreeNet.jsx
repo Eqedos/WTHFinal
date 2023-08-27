@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
+import '../App.css'
 import {
   MainContainer,
   ChatContainer,
@@ -73,7 +74,7 @@ function GreeNet() {
   }
 
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundColor: '#000000' }}>
       <div style={{ position: "relative", height: "800px", width: "700px" }}>
         <MainContainer>
           <ChatContainer>
