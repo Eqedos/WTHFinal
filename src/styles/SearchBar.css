@@ -2,7 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: center; /* To center-align the input and button horizontally */
-  }
+    justify-content: center; /* To center-align items vertically */
+    gap: 10px; /* Adds spacing between flex items */
+}
+
 
 .input-container button {
   margin-top: 10px;

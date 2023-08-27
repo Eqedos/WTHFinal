@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/CardStyles.css';
+import { Link } from 'react-router-dom';
 
 
 function Card({ siteEndpoint }) {
@@ -22,18 +23,15 @@ function Card({ siteEndpoint }) {
     <div className="data-card">
       <h3 className="data-header">{title}</h3>
       <p className="data-content">{value}</p>
-      <button style={buttonStyle}>More Info</button>
     </div>
   );
   const buttonStyle = {
     backgroundColor: '#191414',
     color: 'white',
-    padding: '5px 8px',  
-    fontSize: '0.8em',  
     border: 'none',
-    cursor: 'pointer'
-  };
-  
+    cursor: 'pointer',
+    margin: '30px 0'
+};
 
   return (
     <div className="card">
@@ -47,6 +45,8 @@ function Card({ siteEndpoint }) {
       ) : (
         <p>Loading data...</p>
       )}
+      <Link to="/websitegraph"><button style={buttonStyle}>More Info</button></Link>
+      
     </div>
   );
 }

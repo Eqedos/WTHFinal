@@ -4,6 +4,7 @@ import ChatBot from './pages/chatbot';
 import LandingPage from './pages/LandingPage';
 import Graphs from './pages/Graphs';
 import Search from './pages/Search';
+import WebsiteGraph from './pages/WebsiteGraph';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/chatbot" element={<ChatBot />} />
         <Route path="/graph" element={<Graphs />} />
         <Route path="/search" element={<Search />} />
+        <Route path="/websitegraph" element={<WebsiteGraph />} />
       </Routes>
     </Router>
   );
