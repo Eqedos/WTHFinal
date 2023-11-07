@@ -4,7 +4,7 @@
  <img src="https://github.com/Eqedos/WTHFinal/assets/113342246/8c3aab6f-e59c-44af-a109-f9571c6d02da" width="300" />
 </p>
 
- >**Note: This was built for HackSingapore2023 and all keys are expired**
+ >**Note: This was built for HackSingapore2023 where we won 1st place with a prize of $800 amongst 70 teams. All keys are expired**
 ## Building a Sustainable Code Revolution
 
 ### Inspiration
