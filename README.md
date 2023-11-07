@@ -1,4 +1,8 @@
-# Sustainable Code Revolution
+## ECOde
+
+<p>
+ <img src="https://github.com/Eqedos/WTHFinal/assets/113342246/8c3aab6f-e59c-44af-a109-f9571c6d02da" width="300" />
+</p>
 
  >**Note: This was built for HackSingapore2023 and all keys are expired**
 ## Building a Sustainable Code Revolution
@@ -49,7 +53,7 @@ We welcome contributions from the community to help improve and expand the Susta
 ## Credits
 - **[Parth Kumar]** - Project Lead
 - **[Elisabeth Fung]** - Developer
-- **[Andrea Cheah]** - Designer
+- **[Andrea Cheah]** - Developer
 
 
 
