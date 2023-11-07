@@ -1,6 +1,6 @@
 # Sustainable Code Revolution
 
- >**Note: This was built for a hackathon and all keys are expired**
+ >**Note: This was built for HackSingapore2023 and all keys are expired**
 ## Building a Sustainable Code Revolution
 
 ### Inspiration
